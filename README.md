@@ -1,8 +1,8 @@
 # ds-project-1: EDA with King County Housing Data
 
-**First individual project at the _neuefische_ bootscamp performing EDA.**
+**First individual project at the _neuefische Data Science_ bootscamp performing EDA.**
 
-The overall goal is to perform an Exploratory Data Analysis (EDA) of the King County Housing Data having in mind the requests of the stakeholder Nicole Johnson, buyer, who seeks for a "Lively, central neighborhood, middle price range, right timing (within a year)"
+The overall goal is to perform an Exploratory Data Analysis (EDA) of the [King County Housing Data](https://www.kaggle.com/datasets/harlfoxem/housesalesprediction) having in mind the requests of a hypothetical stakeholder named  Nicole Johnson, who seeks to buy a house for a "lively, central neighborhood, middle price range, right timing (within a year)". The walk through can be found in **EDA.ipynb**.
 
 ## Requirements
 
@@ -22,8 +22,8 @@ First of all, we want to create a new virtual environment with the most basic py
 
 * setting the python version locally to 3.9.8
 * creating a virtual environment using the `venv` module
-* activating your newly created environment 
-* upgrading `pip` (This step is not absolutely necessary, but will save you trouble when installing some packages.)
+* activating our newly created environment 
+* upgrading `pip` (optional, but handsome)
 * installing the required packages via `pip`
 
 The above modules are listed in a separate `requirements file`. Therefore, we just need to run the following command to set up the virtual environment and the required packages like this:
