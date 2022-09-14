@@ -1,18 +1,11 @@
-# ds-project-1: EDA with King County Housing Data
+# ds-project-template
 
-First individual project at the __neuefische_ bootscamp performing EDA.
+Template for creating ds simple projects
 
 ## Requirements
 
 - pyenv
 - python==3.9.8
-- jupyterlab==3.2.6
-- ipywidgets==7.6.5
-- matplotlib==3.5.1
-- pandas==1.3.5
-- numpy==1.22.0
-- jupyterlab-dash==0.1.0a3
-- seaborn==0.11.1
 
 ## Setup
 
@@ -26,14 +19,8 @@ One of the first steps when starting any data science project is to create a vir
 
 At the end, you want to make sure that people who are interested in your project can create an identical environment on their own computer in order to be able to run your code without running into errors. Therefore you can create a `requirements file` and add it to your repository. You can create such a file by running the following command: 
 
-You can install the virtual environment and the required packages like this:
-
-```sh
-pyenv local 3.9.8
-python -m venv .venv
-source .venv/bin/activate
-pip install --upgrade pip  
-pip install -r requirements.txt
+```bash
+pip freeze > requirements.txt
 ```
 
 *Note: In rare case such a requirements file created with `pip freeze` might not ensure that another (especially M1 chip) user can install and execute it properly. This can happen if libraries need to be compiled (e.g. SciPy). Then it also depends on environment variables and the actual system libraries.*
