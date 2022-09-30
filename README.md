@@ -35,3 +35,13 @@ source .venv/bin/activate
 pip install --upgrade pip  
 pip install -r requirements.txt
 ```
+
+## Data
+
+The dataset for the population density for the notebook *zipcode_data_king_county.ipynb* is stored in the `data.zip` folder. To unzip the data folder directly in the terminal run
+
+```sh
+unzip data.zip
+```
+
+For the other datasets links are given within the notebooks.
