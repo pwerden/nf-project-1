@@ -18,7 +18,9 @@ The overall goal is to perform an Exploratory Data Analysis (EDA) of the [King C
 
 ## Setup
 
-First of all, we want to create a new virtual environment with the most basic python modules. Therefore we are:
+First of all, we want to create a new virtual environment with the most basic python modules. Therefore we are (either with 1 **or** 2):
+
+### 1) pyenv
 
 * setting the python version locally to 3.9.8
 * creating a virtual environment using the `venv` module
@@ -34,6 +36,20 @@ python -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip  
 pip install -r requirements.txt
+```
+
+### 2) anaconda
+
+* upgrade the `conda` package manager to the latest version
+* creating a virtual environment named **venv_nf-p1** with set python version
+* activating our newly created environment
+* installing the required packages via `conda` from channel conda-forge
+
+```sh
+conda update conda
+conda create -n venv_nf-p1 python=3.9.8
+conda activate venv_nf-p1
+conda install -c conda-forge --file requirements.txt
 ```
 
 ## Data
